@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ODUGBOCHE PATRICK SEAN - Curriculum Vitae</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy-950: #080d1a;
+    --navy-900: #0f172a;
+    --navy-850: #142038;
+    --navy-800: #1e293b;
+    --navy-700: #334155;
+    --sky-500: #0ea5e9;
+    --sky-600: #0284c7;
+    --sky-700: #0369a1;
+    --sky-50: #f0f9ff;
+    --sky-100: #e0f2fe;
+    --sky-200: #bae6fd;
+    --slate-50: #f8fafc;
+    --slate-100: #f1f5f9;
+    --slate-200: #e2e8f0;
+    --slate-300: #cbd5e1;
+    --slate-400: #94a3b8;
+    --slate-500: #64748b;
+    --slate-600: #475569;
+    --slate-700: #334155;
+    --slate-800: #1e293b;
+    --slate-900: #0f172a;
+    --indigo-50: #eef2ff;
+    --indigo-100: #e0e7ff;
+    --indigo-600: #4f46e5;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--slate-800);
+    background-color: #cbd5e1;
+    line-height: 1.45;
+    font-size: 12.5px;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  .page {
+    width: 210mm;
+    height: 297mm;
+    max-height: 297mm;
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    box-sizing: border-box;
+    overflow: hidden;
+    page-break-after: always;
+    page-break-inside: avoid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  @media print {
+    body {
+      background: none;
+    }
+    .page {
+      margin: 0;
+      box-shadow: none;
+      height: 297mm;
+      max-height: 297mm;
+    }
+  }
+
+  /* Page 1 Header */
+  .header {
+    background: linear-gradient(135deg, #091124 0%, #112247 55%, #1d3d84 100%);
+    color: #ffffff;
+    padding: 28px 38px 20px 38px;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.5px;
+    background: linear-gradient(90deg, #38bdf8 0%, #818cf8 50%, #38bdf8 100%);
+  }
+
+  .header-name {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 6px;
+  }
+
+  .header-title-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(56, 189, 248, 0.14);
+    border: 1px solid rgba(56, 189, 248, 0.35);
+    color: #7dd3fc;
+    font-weight: 600;
+    font-size: 12.5px;
+    padding: 4px 13px;
+    border-radius: 20px;
+    letter-spacing: 0.3px;
+    margin-bottom: 14px;
+  }
+
+  .header-title-badge .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #38bdf8;
+    box-shadow: 0 0 6px #38bdf8;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 20px;
+    font-size: 11.5px;
+    color: #cbd5e1;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding-top: 12px;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .contact-icon {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    color: #38bdf8;
+  }
+
+  .contact-item a {
+    color: #f1f5f9;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  /* Page 2 Header */
+  .page-2-header {
+    background: linear-gradient(135deg, #091124 0%, #112247 100%);
+    color: #ffffff;
+    padding: 12px 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3.5px solid var(--sky-500);
+    flex-shrink: 0;
+  }
+
+  .page-2-name {
+    font-size: 13.5px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .page-2-subtitle {
+    font-size: 11.5px;
+    color: #94a3b8;
+    margin-left: 8px;
+    font-weight: 500;
+  }
+
+  .page-2-meta {
+    font-size: 11px;
+    color: #38bdf8;
+    font-weight: 600;
+    background: rgba(56, 189, 248, 0.12);
+    padding: 2.5px 9px;
+    border-radius: 12px;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+  }
+
+  /* Page Content Container */
+  .content {
+    padding: 18px 38px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Section Styling */
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .section-icon-badge {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background: var(--sky-100);
+    color: var(--sky-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .section-icon-badge svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .section-title {
+    font-size: 12.8px;
+    font-weight: 800;
+    color: var(--navy-900);
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    white-space: nowrap;
+  }
+
+  .section-line {
+    flex: 1;
+    height: 1.5px;
+    background: linear-gradient(90deg, var(--slate-300) 0%, transparent 100%);
+  }
+
+  /* Profile Card */
+  .profile-card {
+    background: var(--slate-50);
+    border-left: 3.5px solid var(--sky-600);
+    border-top: 1px solid var(--slate-200);
+    border-right: 1px solid var(--slate-200);
+    border-bottom: 1px solid var(--slate-200);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
+    font-size: 12.2px;
+    line-height: 1.55;
+    color: var(--slate-700);
+    text-align: justify;
+  }
+
+  /* Technical Training Cards */
+  .training-container {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .training-card {
+    background: #ffffff;
+    border: 1px solid var(--slate-200);
+    border-left: 3.5px solid var(--sky-600);
+    border-radius: 0 6px 6px 0;
+    padding: 9px 13px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+  }
+
+  .training-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .role-title {
+    font-size: 12.8px;
+    font-weight: 700;
+    color: var(--navy-900);
+  }
+
+  .date-pill {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: var(--sky-700);
+    background: var(--sky-50);
+    border: 1px solid var(--sky-200);
+    padding: 1.5px 8px;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+
+  .bullet-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5px;
+  }
+
+  .bullet-list li {
+    font-size: 11.8px;
+    color: var(--slate-700);
+    position: relative;
+    padding-left: 14px;
+    line-height: 1.45;
+  }
+
+  .bullet-list li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 5.5px;
+    width: 4.5px;
+    height: 4.5px;
+    border-radius: 50%;
+    background-color: var(--sky-600);
+  }
+
+  /* Skills Grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .skill-card {
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
+    border-radius: 6px;
+    padding: 7px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .skill-title {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--navy-800);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .skill-title-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--sky-600);
+  }
+
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .skill-tag {
+    font-size: 10.8px;
+    background: #ffffff;
+    color: var(--sky-700);
+    border: 1px solid var(--sky-200);
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+
+  /* Experience Cards (Page 2) */
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .exp-card {
+    background: #ffffff;
+    border: 1px solid var(--slate-200);
+    border-left: 3px solid var(--navy-800);
+    border-radius: 0 6px 6px 0;
+    padding: 8px 12px;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  .exp-title-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exp-role {
+    font-size: 12.3px;
+    font-weight: 700;
+    color: var(--navy-900);
+    line-height: 1.25;
+  }
+
+  .exp-company {
+    font-size: 11.2px;
+    font-weight: 600;
+    color: var(--sky-700);
+  }
+
+  .exp-date {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: var(--slate-600);
+    background: var(--slate-100);
+    border: 1px solid var(--slate-200);
+    padding: 1.5px 7px;
+    border-radius: 8px;
+    white-space: nowrap;
+  }
+
+  /* Education & Certifications */
+  .edu-cert-wrapper {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 10px;
+  }
+
+  .edu-card {
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
+    border-left: 3px solid var(--sky-600);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .edu-degree {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--navy-900);
+    line-height: 1.3;
+    margin-bottom: 3px;
+  }
+
+  .edu-school {
+    font-size: 11.3px;
+    font-weight: 600;
+    color: var(--sky-700);
+    margin-bottom: 3px;
+  }
+
+  .edu-years {
+    font-size: 10.8px;
+    color: var(--slate-500);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .cert-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .cert-row {
+    background: #ffffff;
+    border: 1px solid var(--slate-200);
+    border-radius: 5px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+  }
+
+  .cert-title {
+    font-weight: 600;
+    color: var(--slate-800);
+  }
+
+  .cert-badge {
+    font-size: 10px;
+    color: var(--slate-500);
+    background: var(--slate-100);
+    padding: 1px 6px;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin-left: 6px;
+    font-weight: 500;
+  }
+
+  /* Leadership Cards */
+  .leadership-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .lead-item {
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
+    border-left: 3px solid #6366f1;
+    border-radius: 0 5px 5px 0;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11.2px;
+    color: var(--slate-700);
+    font-weight: 500;
+  }
+
+  .lead-item svg {
+    width: 15px;
+    height: 15px;
+    color: #6366f1;
+    flex-shrink: 0;
+  }
+
+  /* Referees Grid */
+  .referees-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+  }
+
+  .referee-box {
+    background: #ffffff;
+    border: 1px solid var(--slate-200);
+    border-top: 3px solid var(--sky-600);
+    border-radius: 0 0 5px 5px;
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+  }
+
+  .referee-name {
+    font-size: 11.8px;
+    font-weight: 700;
+    color: var(--navy-900);
+    margin-bottom: 2px;
+  }
+
+  .referee-title {
+    font-size: 10.6px;
+    color: var(--slate-600);
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+
+  .referee-institution {
+    color: var(--sky-700);
+    font-weight: 600;
+  }
+
+  .referee-contacts {
+    border-top: 1px dashed var(--slate-200);
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+    font-size: 10.2px;
+    color: var(--slate-600);
+  }
+
+  .referee-contact-line {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .referee-contact-line svg {
+    width: 11px;
+    height: 11px;
+    color: var(--sky-600);
+    flex-shrink: 0;
+  }
+
+  /* Footer */
+  .page-footer {
+    padding: 8px 38px 10px 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10.5px;
+    color: var(--slate-400);
+    border-top: 1px solid var(--slate-200);
+    flex-shrink: 0;
+    background: #ffffff;
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .footer-left strong {
+    color: var(--slate-600);
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= PAGE 1 ================= -->
+<div class="page">
+  <!-- HERO HEADER -->
+  <div class="header">
+    <h1 class="header-name">ODUGBOCHE PATRICK SEAN</h1>
+    <div class="header-title-badge">
+      <span class="dot"></span>
+      <span>AI-Native Full-Stack Developer Trainee &bull; AI Data Operations</span>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-item">
+        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <span>14 Ewenla Street, Off Bolarin, Idimu, Lagos</span>
+      </div>
+      <div class="contact-item">
+        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <span>+234 903 206 4250 &nbsp;|&nbsp; +234 813 827 4084</span>
+      </div>
+      <div class="contact-item">
+        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        <span><a href="mailto:odu.pisc@gmail.com">odu.pisc@gmail.com</a> &nbsp;|&nbsp; <a href="mailto:ochesean@gmail.com">ochesean@gmail.com</a></span>
+      </div>
+      <div class="contact-item">
+        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        <span><a href="https://github.com/Podugboch">github.com/Podugboch</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/patrick-odugboche-826115176">LinkedIn Profile</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTENT PAGE 1 -->
+  <div class="content">
+    <!-- PROFILE -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </div>
+        <h2 class="section-title">Profile</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="profile-card">
+        Detail-oriented and adaptable professional transitioning into <strong>AI-Native Full-Stack Development</strong>, combining hands-on software development training with experience in customer experience, logistics coordination, research data monitoring, and AI data operations. Currently focused on <strong>Go backend engineering</strong>, RESTful APIs, authentication, modern frontend development, and <strong>Python-based data workflows</strong>. Brings strong communication, analytical thinking, precision, and a proven commitment to quality.
+      </div>
+    </div>
+
+    <!-- TECHNICAL TRAINING & AI OPERATIONS -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+        </div>
+        <h2 class="section-title">Technical Training & AI Operations</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="training-container">
+        <div class="training-card">
+          <div class="training-header">
+            <span class="role-title">AI-Native Full-Stack Developer Trainee</span>
+            <span class="date-pill">February 2026 – Present</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Engineering performant backend services, modular REST endpoints, and authentication workflows utilizing <strong>Go</strong>.</li>
+            <li>Developing interactive, component-driven client applications and integrating frontend interfaces.</li>
+            <li>Scripting data-handling routines and learning AI-native development workflows using <strong>Python</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="training-card">
+          <div class="training-header">
+            <span class="role-title">AI Data & Video Annotation Specialist</span>
+            <span class="date-pill">Project-Based</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Performed precise temporal and spatial video annotation using <strong>Atlas Capture</strong> to support computer vision model training.</li>
+            <li>Verified dataset accuracy, object-tracking continuity, and classification labels across multi-frame sequences.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- CORE SKILLS -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+        </div>
+        <h2 class="section-title">Core Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-title">
+            <span class="skill-title-dot"></span>
+            <span>Go / Backend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Go (Golang)</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Authentication</span>
+            <span class="skill-tag">Backend Architecture</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-title">
+            <span class="skill-title-dot"></span>
+            <span>AI Data</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Video Annotation</span>
+            <span class="skill-tag">Bounding Boxes</span>
+            <span class="skill-tag">Keypoints</span>
+            <span class="skill-tag">Object Tracking</span>
+            <span class="skill-tag">Dataset QA</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-title">
+            <span class="skill-title-dot"></span>
+            <span>Logistics</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Customer Coordination</span>
+            <span class="skill-tag">Route Instructions</span>
+            <span class="skill-tag">Dispatch Coordination</span>
+            <span class="skill-tag">Delivery Scheduling</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-title">
+            <span class="skill-title-dot"></span>
+            <span>Tools</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Microsoft Office Suite</span>
+            <span class="skill-tag">Atlas Capture</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-title">
+            <span class="skill-title-dot"></span>
+            <span>Professional</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Customer Experience</span>
+            <span class="skill-tag">Research</span>
+            <span class="skill-tag">Problem-Solving</span>
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Records Management</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-title">
+            <span class="skill-title-dot"></span>
+            <span>Languages</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">English (Proficient)</span>
+            <span class="skill-tag">Yoruba</span>
+            <span class="skill-tag">Idoma</span>
+            <span class="skill-tag">Igbo</span>
+            <span class="skill-tag">Hausa (Working Proficiency)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER 1 -->
+  <div class="page-footer">
+    <div class="footer-left">
+      <strong>ODUGBOCHE PATRICK SEAN</strong> &bull; Curriculum Vitae
+    </div>
+    <div>Page 1 of 2</div>
+  </div>
+</div>
+
+
+<!-- ================= PAGE 2 ================= -->
+<div class="page">
+  <!-- PAGE 2 HEADER -->
+  <div class="page-2-header">
+    <div>
+      <span class="page-2-name">ODUGBOCHE PATRICK SEAN</span>
+      <span class="page-2-subtitle">| AI-Native Full-Stack Developer Trainee</span>
+    </div>
+    <div class="page-2-meta">Curriculum Vitae &bull; Page 2 of 2</div>
+  </div>
+
+  <!-- CONTENT PAGE 2 -->
+  <div class="content">
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        </div>
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="experience-container">
+        <!-- Item 1 -->
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-title-row">
+              <span class="exp-role">Customer Relationship Officer / Dispatch</span>
+              <span class="exp-company">Carolina Logistics (Remote)</span>
+            </div>
+            <span class="exp-date">May 2023 – August 2024</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Coordinated with customers to ensure smooth and efficient delivery operations from dispatch through completion.</li>
+            <li>Provided drivers with precise logistics and route instructions to support accurate, timely, and efficient deliveries.</li>
+            <li>Coordinated delivery schedules and communicated timing updates to help keep customers and drivers aligned.</li>
+          </ul>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-title-row">
+              <span class="exp-role">Customer Service Representative</span>
+              <span class="exp-company">ISON Xperiences (MTN Process)</span>
+            </div>
+            <span class="exp-date">July 2018 – February 2021</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Delivered end-to-end customer support, resolving inquiries while meeting and exceeding key performance indicators.</li>
+            <li>Managed issue escalations, maintained detailed CRM records, and upheld high call-quality standards.</li>
+          </ul>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-title-row">
+              <span class="exp-role">Independent Field Monitor</span>
+              <span class="exp-company">World Health Organization (WHO)</span>
+            </div>
+            <span class="exp-date">March 2017 – May 2017</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Audited the 2017 National Immunization Plus Days (NIPDs) across Ilorin South LGA against operational field standards.</li>
+            <li>Verified data-entry integrity and reported real-time coverage statistics to district supervisors.</li>
+          </ul>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-title-row">
+              <span class="exp-role">Assistant Guidance Counsellor & Teacher</span>
+              <span class="exp-company">Eucharistic Model College, Kwara State</span>
+            </div>
+            <span class="exp-date">September 2014 – November 2014</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Provided foundational career counselling and personal development guidance to students.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+        </div>
+        <h2 class="section-title">Education & Certifications</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="edu-cert-wrapper">
+        <div class="edu-card">
+          <div class="edu-degree">Bachelor of Education (B.Ed.) in Counsellor Education</div>
+          <div class="edu-school">University of Ilorin, Kwara State</div>
+          <div class="edu-years">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            <span>October 2011 – June 2015</span>
+          </div>
+        </div>
+
+        <div class="cert-container">
+          <div class="cert-row">
+            <span class="cert-title">Developing Corporate Behaviour</span>
+            <span class="cert-badge">March 2019</span>
+          </div>
+          <div class="cert-row">
+            <span class="cert-title">How May I Serve You? Training Certification</span>
+            <span class="cert-badge">June 2018</span>
+          </div>
+          <div class="cert-row">
+            <span class="cert-title">TRCN</span>
+            <span class="cert-badge">July 2016</span>
+          </div>
+          <div class="cert-row">
+            <span class="cert-title">NYSC Discharge Certificate</span>
+            <span class="cert-badge">November 2016</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEADERSHIP & VOLUNTEERING -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </div>
+        <h2 class="section-title">Leadership & Volunteering</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="leadership-grid">
+        <div class="lead-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <span>Inducted Member, Nigeria Federation of Catholic Students (NFCS) Alumni Association</span>
+        </div>
+        <div class="lead-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          <span>Member, Catholic Youth Organization of Nigeria (CYON)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- REFEREES -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="11" cy="7" r="4"></circle><line x1="19" y1="8" x2="19" y2="14"></line><line x1="22" y1="11" x2="16" y2="11"></line></svg>
+        </div>
+        <h2 class="section-title">Referees</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="referees-grid">
+        <div class="referee-box">
+          <div>
+            <div class="referee-name">Dr. Elvis Nana Amoateng</div>
+            <div class="referee-title">Department of Politics & International Studies<br><span class="referee-institution">University of Warwick, UK</span></div>
+          </div>
+          <div class="referee-contacts">
+            <div class="referee-contact-line">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>+44 7904 077367</span>
+            </div>
+            <div class="referee-contact-line" style="visibility: hidden;">
+              <span>&nbsp;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="referee-box">
+          <div>
+            <div class="referee-name">Dr. Frank Abumere</div>
+            <div class="referee-title">African Studies Centre<br><span class="referee-institution">University of Oxford, UK</span></div>
+          </div>
+          <div class="referee-contacts">
+            <div class="referee-contact-line">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>+44 7459 469662</span>
+            </div>
+            <div class="referee-contact-line">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>frank.a.abumere@uit.no</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="referee-box">
+          <div>
+            <div class="referee-name">Engr. Charles Onyia</div>
+            <div class="referee-title">Retired Civil Servant<br><span class="referee-institution">Ilorin, Kwara State</span></div>
+          </div>
+          <div class="referee-contacts">
+            <div class="referee-contact-line">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>08060901770</span>
+            </div>
+            <div class="referee-contact-line">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>onyia_charles@yahoo.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER 2 -->
+  <div class="page-footer">
+    <div class="footer-left">
+      <strong>ODUGBOCHE PATRICK SEAN</strong> &bull; Curriculum Vitae
+    </div>
+    <div>Page 2 of 2</div>
+  </div>
+</div>
+
+</body>
+</html>
